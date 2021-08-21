@@ -12,7 +12,7 @@ int main(){
              "Enter D to compute decoders \n"
              "------------------------------------------------------------------------\n");
     scanf("%s",&ch);
-    if (ch == 'C' || ch == 'c'){
+    if (ch == 'E' || ch == 'e'){
         printf("\nThe following operations are provided\n"
                   "-----------------------------------------------\n"
                   "                         | a : 1:2 decoder\n"
