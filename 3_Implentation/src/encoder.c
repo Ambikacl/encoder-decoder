@@ -1,6 +1,6 @@
 #include "conversion.h"
 
-error_t getData_5 (enco_21 *values){
+error_dt getData_5 (enco_21 *values){
     FILE *fp = NULL;
     fp = fopen ("decoder.txt" , "r");
     if (fp == NULL)
@@ -28,7 +28,7 @@ error_t getData_5 (enco_21 *values){
     return 0;
 }
 
-error_t getData_6 (enco_42 *values){
+error_dt getData_6 (enco_42 *values){
     FILE *fp = NULL;
     fp = fopen ("encoder.txt" , "r");
     if (fp == NULL)
@@ -62,7 +62,7 @@ error_t getData_6 (enco_42 *values){
     return 0;
 }
 
-error_t getData_7 (enco_83 *values){
+error_dt getData_7 (enco_83 *values){
     FILE *fp = NULL;
     fp = fopen ("encoder.txt" , "r");
     if (fp == NULL)
