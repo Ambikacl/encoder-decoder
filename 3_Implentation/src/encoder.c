@@ -2,7 +2,7 @@
 
 error_dt getData_5 (enco_21 *values){
     FILE *fp = NULL;
-    fp = fopen ("decoder.txt" , "r");
+    fp = fopen ("encoder.txt" , "r");
     if (fp == NULL)
     {
        printf("File not found!");
