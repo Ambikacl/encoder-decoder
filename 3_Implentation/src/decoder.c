@@ -1,7 +1,7 @@
 #include "conversion.h"
 #include<stdio.h>
 
-error_t getData_2 (deco_12 *values){
+error_dt getData_2 (deco_12 *values){
     FILE *fp = NULL;
     fp = fopen ("decoder.txt" , "r");
     if (fp == NULL)
@@ -26,7 +26,7 @@ error_t getData_2 (deco_12 *values){
     return 0;
 }
 
-error_t getData_3 (deco_24 *values){
+error_dt getData_3 (deco_24 *values){
     FILE *fp = NULL;
     fp = fopen ("decoder.txt" , "r");
     if (fp == NULL)
@@ -54,7 +54,7 @@ error_t getData_3 (deco_24 *values){
     return 0;
 }
 
-error_t getData_4 (deco_38 *values){
+error_dt getData_4 (deco_38 *values){
     FILE *fp = NULL;
     fp = fopen ("decoder.txt" , "r");
     if (fp == NULL)
