@@ -63,21 +63,21 @@ typedef struct deco_38{
     int Y7;
 }deco_38;
 
-typedef enum error_t{
+typedef enum error_dt{
     PASS = 0,
     FAIL = -1,
     ERR_NEGATIVE = -2
-}error_t;
+}error_dt;
 
-error_t getData_2 (deco_12 *values);
-error_t getData_3 (deco_24 *values);
-error_t getData_4 (deco_38 *values);
+error_dt getData_2 (deco_12 *values);
+error_dt getData_3 (deco_24 *values);
+error_dt getData_4 (deco_38 *values);
 void decoder_12(deco_12 *values);
 void decoder_24(deco_24 *values);
 void decoder_38(deco_38 *values);
-error_t getData_5 (enco_21 *values);
-error_t getData_6 (enco_42 *values);
-error_t getData_7 (enco_83 *values);
+error_dt getData_5 (enco_21 *values);
+error_dt getData_6 (enco_42 *values);
+error_dt getData_7 (enco_83 *values);
 void encoder_21(enco_21 *values);
 void encoder_42(enco_42 *values);
 void encoder_83(enco_83 *values);
